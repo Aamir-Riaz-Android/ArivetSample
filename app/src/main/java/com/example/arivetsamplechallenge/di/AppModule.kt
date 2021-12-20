@@ -16,11 +16,6 @@ import javax.inject.Singleton
 @Module
 @InstallIn(SingletonComponent::class)
 object AppModule {
-    //for testing purpose only
-    @Singleton
-    @Provides
-    @Named("text1")
-    fun provideText1()="This is test string1111"
 
 
     @Singleton
